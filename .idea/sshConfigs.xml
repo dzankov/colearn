@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="10.160.181.67" id="8e5bd640-ffe4-4213-af2d-425fc60ca858" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="purple" nameFormat="CUSTOM" username="zankov">
+        <option name="customName" value="purple" />
+      </sshConfig>
+      <sshConfig host="10.160.181.66" id="061d000e-8c3d-4c7b-b27f-34454ab76232" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="deep" nameFormat="CUSTOM" username="zankov">
+        <option name="customName" value="deep" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

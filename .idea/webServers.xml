@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f71613f9-0abc-4eff-8093-fd120584dfd1" name="purple">
+        <fileTransfer rootFolder="/home/zankov" accessType="SFTP" host="10.160.181.67" port="22" sshConfigId="8e5bd640-ffe4-4213-af2d-425fc60ca858" sshConfig="purple" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7c6a2339-71a1-49fd-9d9c-7011ed04fba6" name="deep">
+        <fileTransfer rootFolder="/home/zankov" accessType="SFTP" host="10.160.181.66" port="22" sshConfigId="061d000e-8c3d-4c7b-b27f-34454ab76232" sshConfig="deep" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
