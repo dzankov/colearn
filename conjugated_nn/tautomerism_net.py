@@ -67,7 +67,7 @@ class TautomerismConjugatedNet(nn.Module):
         self.net = MainNet(ndim)
         self.init_cuda = init_cuda
 
-        if self.net and self.init_cuda:
+        if self.init_cuda:
             self.net.cuda()
 
     def reset_params(self, m):
