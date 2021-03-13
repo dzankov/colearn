@@ -112,7 +112,7 @@ class TautomerismConjugatedNet(nn.Module):
         YT = torch.from_numpy(YT.astype('float32'))
         YA = torch.from_numpy(YA.astype('float32'))
 
-        if self.cuda:
+        if self.init_cuda:
             X1, X2, X, YT, YA = X1.cuda(), X2.cuda(), X.cuda(), YT.cuda(), YA.cuda()
 
         return X1, X2, X, YT, YA
